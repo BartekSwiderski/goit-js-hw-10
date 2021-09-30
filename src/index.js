@@ -32,7 +32,6 @@ form.addEventListener("input", debounce(
       .catch((error) => console.log(error));
   }
   ,DEBOUNCE_DELAY))
-
 function renderCountry(arr) {
   console.log(arr)
   const divCounter= qsa(".add")
